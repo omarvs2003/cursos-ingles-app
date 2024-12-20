@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - InglesFK</title>
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Enlace a tu hoja de estilos -->
+</head>
+<body>
+    <!-- Cabecera Fija -->
+    <header>
+        <div id="contenedor_logo_d">  
+            <img id="logo_d" src="/img/fk_png.png" alt="Logo de FortuneKey">
+        </div>
+        <h1 id="welcome-message">Bienvenido, </h1>
+        <nav>
+            <ul>
+                <!--<li><a href="#">Inicio</a></li>-->
+                <li><a href="/dashboard.html">Mis Cursos</a></li>
+                <li><a href="/perfil.html">Perfil</a></li>
+                <li><a href="#" id="logoutBtn">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <section id="cursos">
+            <!-- Aquí se cargarán tus cursos -->
+            <div class="curso">
+                <img src="img/ingle_basico.jpeg" alt="Curso de Inglés Básico">
+                <h2>Inglés Básico</h2>
+                <p>Aprende los fundamentos del inglés.</p>
+                <button>Acceder</button>
+            </div>
+            <div class="curso">
+                <img src="img/ingles_intermedio.png" alt="Curso de Inglés Intermedio">
+                <h2>Inglés Intermedio</h2>
+                <p>Mejora tus habilidades en inglés.</p>
+                <button>Acceder</button>
+            </div>
+            <div class="curso">
+                <img src="img/ingles_avanzado.png" alt="Curso de Inglés Avanzado">
+                <h2>Inglés Avanzado</h2>
+                <p>Perfecciona tu dominio del inglés.</p>
+                <button>Acceder</button>
+            </div>
+            <!-- Añade más cursos según sea necesario -->
+        </section>
+    </main>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>

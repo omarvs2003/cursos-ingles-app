@@ -1,0 +1,433 @@
+/* Estilos Generales para el Cuerpo de la Página */
+body {
+    min-height: 100vh; /* Asegura que el body ocupe al menos la altura completa de la ventana */
+    margin: 0; /* Elimina márgenes por defecto */
+    background: #FFF; /* Fondo blanco */
+    display: flex; /* Usa Flexbox para organizar el contenido */
+    flex-direction: column; /* Dirección vertical */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: flex-start; /* Alinea verticalmente al inicio */
+    font-family: Arial, sans-serif; /* Fuente predeterminada */
+    padding-top: 13px; /* Espacio superior de 13 píxeles */
+}
+
+/* Contenedor del Logo */
+#contenedor_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos dentro del contenedor */
+    gap: 10px; /* Espacio entre elementos */
+    margin-bottom: 20px; /* Espacio inferior para separar del formulario */
+    /* width: 687px; */ /* Eliminado para mayor responsividad */
+}
+
+/* Estilos para la Imagen del Logo */
+#logo {
+    width: 500px; /* Ancho ajustado para mejor responsividad */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-radius: 10px; /* Bordes ligeramente redondeados */
+    /* Si necesitas un ancho mayor, ajusta el valor anterior */
+}
+
+/* Contenedor Principal */
+#Box {
+    width: 400px; /* Ajusta el ancho según tus necesidades */
+    margin: 0 auto; /* Centra el Box horizontalmente en la página */
+    padding-top: 30px; /* Espacio de 13 píxeles desde la parte superior */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+    background-color: #FAC826; /* Fondo opcional para el Box */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados opcionales */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+}
+
+/* Título "Inicia Sesión" */
+#Iniciar_sesion {
+    margin: 0; /* Elimina márgenes por defecto */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    text-align: center; /* Alinea el texto al centro */
+    font-size: 24px; /* Tamaño de fuente ajustable */
+    color: #333; /* Color del texto */
+}
+
+/* Formulario de Login */
+#loginForm {
+    width: 100%; /* Ocupa todo el ancho del Box */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espacio entre los campos del formulario */
+}
+
+/* Etiquetas del Formulario */
+#loginForm label {
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Campos de Entrada */
+#loginForm input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Botón de Envío */
+#loginForm button {
+    padding: 10px;
+    background-color: #65558F;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Efecto Hover en el Botón */
+#loginForm button:hover {
+    background-color: #218838;
+}
+
+
+/* Reset de Estilos Básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el Cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Estilos para la Cabecera */
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #FAC826; /* Color de fondo de la cabecera */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor del Logo */
+#contenedor_logo_d {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para la Imagen del Logo */
+#logo_d {
+    width: 100px; /* Ancho ajustado para mejor responsividad */
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #65558F;
+}
+
+/* Contenido Principal */
+main {
+    margin-top: 80px; /* Espacio superior para evitar la cabecera fija */
+    padding: 20px;
+}
+
+/* Título de Bienvenida */
+main h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+
+/* Sección de Cursos */
+#cursos {
+    display: flex; /* Activa Flexbox */
+    flex-direction: row; /* Organiza los elementos en una fila */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples filas si es necesario */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espacio entre los elementos */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f0f0f0; /* Fondo opcional para diferenciar la sección */
+}
+
+/* Estilos para cada curso */
+.curso {
+    background-color: white; /* Fondo blanco para resaltar el curso */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 16px; /* Espaciado interno */
+    width: 250px; /* Ancho fijo para uniformidad */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.2s, box-shadow 0.2s; /* Animaciones suaves */
+}
+
+.curso:hover {
+    transform: translateY(-5px); /* Levanta el curso al pasar el cursor */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Sombra más intensa al pasar el cursor */
+}
+
+/* Estilos para las imágenes de los cursos */
+.curso img {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 4px; /* Bordes ligeramente redondeados */
+    margin-bottom: 10px; /* Espacio debajo de la imagen */
+}
+
+/* Estilos para el título de cada curso */
+.curso h2 {
+    font-size: 20px; /* Tamaño de fuente */
+    margin: 10px 0; /* Espaciado vertical */
+    color: #333; /* Color del texto */
+}
+
+/* Estilos para la descripción de cada curso */
+.curso p {
+    font-size: 16px; /* Tamaño de fuente */
+    color: #666; /* Color del texto */
+    margin-bottom: 15px; /* Espacio debajo de la descripción */
+}
+
+/* Estilos para el botón de cada curso */
+.curso button {
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #28a745; /* Color de fondo verde */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.2s; /* Animación suave al cambiar el color de fondo */
+}
+
+.curso button:hover {
+    background-color: #218838; /* Color de fondo más oscuro al pasar el cursor */
+}
+
+
+/* ===================== */
+/*     Reset de CSS      */
+/* ===================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===================== */
+/*    Estilos Generales  */
+/* ===================== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ===================== */
+/*     Contenedor Login  */
+/* ===================== */
+.login-container {
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* ===================== */
+/*      Cabecera Login    */
+/* ===================== */
+.login-header {
+    text-align: center;
+    margin-bottom: 30px;
+    z-index: 10;
+}
+
+.login-header .logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.login-header h2 {
+    font-size: 24px;
+    color: #65558F;
+}
+
+/* ===================== */
+/*       Formulario       */
+/* ===================== */
+.login-form .form-group {
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-form input[type="email"]::placeholder,
+.login-form input[type="password"]::placeholder {
+    color: #999;
+}
+
+.login-form .remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.login-form .remember-me input {
+    margin-right: 10px;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #65558F;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #4B4379;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.forgot-password a {
+    color: #65558F;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.forgot-password a:hover {
+    color: #4B4379;
+}
+
+/* ===================== */
+/*    Mensajes de Error   */
+/* ===================== */
+#message {
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* ===================== */
+/*      Responsividad      */
+/* ===================== */
+@media (max-width: 480px) {
+    .login-container {
+        padding: 30px 20px;
+    }
+
+    .login-header .logo {
+        width: 80px;
+    }
+
+    .login-header h2 {
+        font-size: 20px;
+    }
+
+    .btn-submit {
+        font-size: 16px;
+    }
+
+    .forgot-password a {
+        font-size: 12px;
+    }
+}
+
+/* Estilos para la pantalla de perfil */
+#perfil {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#perfil h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #65558F; /* Color que has usado antes */
+}
+
+.perfil-info p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.perfil-info span {
+    font-weight: bold;
+}
+
+/* Opcional: Estilos para el botón de editar perfil */
+#edit-profile-btn {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #65558F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#edit-profile-btn:hover {
+    background-color: #4b3a72;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - InglesFK</title>
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Enlace a tu hoja de estilos -->
+</head>
+
+<body>
+    <!-- Cabecera Fija -->
+    <header>
+        <div id="contenedor_logo_d">  
+            <img id="logo_d" src="/img/fk_png.png" alt="Logo de FortuneKey">
+        </div>
+        <h1 id="welcome-message">Bienvenido, </h1>
+        <nav>
+            <ul>
+                <li><a href="/dashboard.html">Mis Cursos</a></li>
+                <li><a href="/perfil.html">Perfil</a></li>
+                <li><a href="#" id="logoutBtn">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <section id="perfil">
+            <h2>Mi Perfil</h2>
+            <div class="perfil-info">
+                <p><strong>ID:</strong> <span id="user-id">Cargando...</span></p>
+                <p><strong>Nombre:</strong> <span id="user-nombre">Cargando...</span></p>
+                <p><strong>Email:</strong> <span id="user-email">Cargando...</span></p>
+                <!-- Puedes añadir más campos según sea necesario -->
+            </div>
+            <!-- Opcional: Botón para editar perfil -->
+            <!-- <button id="edit-profile-btn">Editar Perfil</button> -->
+        </section>
+    </main>
+
+    <script src="perfil.js"></script>
+</body>
+
+</html>
